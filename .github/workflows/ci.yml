@@ -12,7 +12,6 @@ jobs:
         ghc: ["8.10.4"]
 
     steps:
-    - run: echo "ACTIONS_ALLOW_UNSECURE_COMMANDS=true" >> $GITHUB_ENV
     - run: echo "$HOME/.local/bin" >> $GITHUB_PATH
 
     - name: Get the version
