@@ -32,6 +32,7 @@ jobs:
         ghc-version: ${{ matrix.ghc }}
         enable-stack: true
         stack-version: 'latest'
+        stack-no-global: true
         stack-setup-ghc: true
 
     - name: Build
